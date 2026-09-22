@@ -1,0 +1,16 @@
+[
+    {
+        "username": "graciebagora",
+        "topic": "Python",
+        "score": 2,
+        "total": 2,
+        "percentage": 100.0
+    },
+    {
+        "username": "graciebagora",
+        "topic": "General CS",
+        "score": 1,
+        "total": 3,
+        "percentage": 33.33333333333333
+    }
+]

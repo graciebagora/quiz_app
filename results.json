@@ -12,5 +12,26 @@
         "score": 1,
         "total": 3,
         "percentage": 33.33333333333333
+    },
+    {
+        "username": "abc12",
+        "topic": "Python",
+        "score": 4,
+        "total": 4,
+        "percentage": 100.0
+    },
+    {
+        "username": "abc12",
+        "topic": "General CS",
+        "score": 2,
+        "total": 3,
+        "percentage": 66.66666666666666
+    },
+    {
+        "username": "abc12",
+        "topic": "Data Structures",
+        "score": 2,
+        "total": 3,
+        "percentage": 66.66666666666666
     }
 ]

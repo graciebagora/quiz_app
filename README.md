@@ -1,33 +1,55 @@
 # Interactive Quiz Application
 
-A modular Python CLI application built for knowledge self-assessment, automated scoring, and performance tracking.
-
 ## Overview
-This application allows users to take interactive multiple-choice quizzes across various topics, records their scores, and provides comprehensive historical reporting and performance analytics.
+
+Interactive Quiz Application is a command-line quiz tool written in Python. Users can choose a quiz topic, answer multiple-choice questions, see their score, and review saved quiz results.
 
 ## Features
-- **User Profile Management**: Log scores under distinct user profiles.
-- **Dynamic Quiz Engine**: Answer multiple-choice questions with input validation and instant feedback.
-- **Reporting & Analytics**: Calculate average scores, total quizzes taken, and performance breakdowns per topic.
 
-## Technologies & Tools Used
-- **Language**: Python 3.x
-- **Data Persistence**: JSON File Persistence (`results.json`)
-- **Version Control**: Git & GitHub
+- Choose from Python, Data Structures, and General CS quiz topics.
+- Take multiple-choice quizzes with input validation and immediate feedback.
+- Calculate scores and percentages.
+- Save quiz results by username in `results.json`.
+- View previous quiz results and an overall average percentage.
 
-## Steps to Install & Run
+## Technologies and Tools
 
-1. **Clone the repository:**
+- Python 3.9 or later
+- JSON for local result storage
+- `unittest` for automated tests
+- Git and GitHub
+
+The project uses only Python's standard library; no additional packages are required.
+
+## Install and Run
+
+1. Clone the repository:
+
    ```bash
-   git clone [https://github.com/graciebagora/quiz_app.git](https://github.com/graciebagora/quiz_app.git)
+   git clone https://github.com/graciebagora/quiz_app.git
+
+2. Change to the project directory:
+   ```
    cd quiz_app
+   ```
+3. Run the application:
+   ```
+   python main.py
+   ```
+   On Windows, you can also use:
+   ```
+   py main.py
+   ```
+   The application creates results.json if it does not already exist.
 
-2.**Run the application:**
-  ```bash
-  python main.py
+## Testing
+From the project root, run the unit tests with:
 ```
-
-3.**Run automated unit tests:**
-  ```bash
-  python -m unittest discover -s tests -p "test_*.py"
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+On Windows, you can use:
+```
+py -m unittest discover -s tests -p "test_*.py" -v
+```
+The current tests check correct-answer evaluation and quiz-result percentage calculation.
 

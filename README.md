@@ -2,24 +2,24 @@
 
 ## Overview
 
-Interactive Quiz Application is a command-line quiz tool written in Python. Users can choose a quiz topic, answer multiple-choice questions, see their score, and review saved quiz results.
+Quiz Application is a python based command line quiz tool. The users can  select any topic of quiz, answer multiple option questions, view their result, saved quiz results.
 
 ## Features
 
-- Choose from Python, Data Structures, and General CS quiz topics.
-- Take multiple-choice quizzes with input validation and immediate feedback.
-- Calculate scores and percentages.
+- You can select any topic from the three i.e. Python, Data Structures, and General CS.
+- Take quizzes with multiple options that checks input and gives feedback.
+- Determine marks and percentage.
 - Save quiz results by username in `results.json`.
 - View previous quiz results and an overall average percentage.
 
-## Technologies and Tools
+## Technologies and Tools used
 
-- Python 3.9 or later
+- Python 3.9 
 - JSON for local result storage
 - `unittest` for automated tests
 - Git and GitHub
 
-The project uses only Python's standard library; no additional packages are required.
+This project utilizes only the Standard Library of Python, and no packages.
 
 ## Install and Run
 
@@ -40,7 +40,7 @@ The project uses only Python's standard library; no additional packages are requ
    ```
    py main.py
    ```
-   The application creates results.json if it does not already exist.
+   The app creates results.json if it does not already exist.
 
 ## Testing
 From the project root, run the unit tests with:

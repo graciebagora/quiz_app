@@ -16,7 +16,15 @@ This application allows users to take interactive multiple-choice quizzes across
 - **Version Control**: Git & GitHub
 
 ## Steps to Install & Run
-1. Clone the repository:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/graciebagora?tab=repositories
+   git clone [https://github.com/graciebagora/quiz_app.git](https://github.com/graciebagora/quiz_app.git)
    cd quiz_app
+
+2.Run the application:
+python main.py
+
+3.Run automated unit tests:
+python -m unittest discover -s tests -p "test_*.py"
+
